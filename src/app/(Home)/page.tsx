@@ -6,7 +6,7 @@ import MotivationalPhrase from '../components/MotivationalPhrase';
 
 export default function Home() {
   return (
-    <main className='px-[10%] max-xl:px-[7%] max-lg:px-[5%] text-white'>
+    <main id='house' className='px-[10%] max-xl:px-[7%] max-lg:px-[5%] text-white'>
       <SocialMedia />
       <Header />
       <NavBar />

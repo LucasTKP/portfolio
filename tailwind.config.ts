@@ -16,6 +16,22 @@ const config: Config = {
         'lsm': '475px',
         ...defaultTheme.screens,
       },
+      animation: {
+        typewriter: 'blinkCursor 1s steps(60) infinite normal, typing 4s steps(60) both',
+      },
+
+      keyframes: {
+        blinkCursor: {
+          '0%': { borderRight: '1px solid #aab2bf' },
+          '100%': { borderRight: '1px solid transparent' },
+        },
+
+        typing: {
+          '0%': { width: '0px' },
+          '100%': { width: '100%', backgroundColor: 'transparent' },
+        }
+      }
+
     },
   },
   plugins: [],

@@ -1,11 +1,15 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 import Image from 'next/image'
 import photo1 from '@/assets/images/photo1.png'
+import ChangeText from './changeText'
 
 
 function Hero() {
+    const [a , seta] = useState('')
+
   return (
-    <section id='#hero' className='flex max-sm:flex-wrap mt-[60px] max-sm:mt-[20px] gap-x-[100px] max-2xl:gap-x-[50px] max-xl:gap-x-[20px] max-lg:gap-x-[20px] max-md:gap-[10px]'>
+    <section className='flex max-sm:flex-wrap mt-[60px] max-sm:mt-[20px] gap-x-[100px] max-2xl:gap-x-[50px] max-xl:gap-x-[20px] max-lg:gap-x-[20px] max-md:gap-[10px]'>
         <div className='mt-[50px] max-2xl:mt-[0px] flex flex-col items-start'>
             <p className='text-[20px] max-xl:text-[18px] max-lg:text-[16px] font-bold'>
                 Olá, meu nome é
@@ -25,7 +29,7 @@ function Hero() {
             <Image src={photo1} alt='Lucas' priority quality={100} width={500} className='max-sm:w-[300px]'/>
             <div className='flex items-center border-[#ABB2BF] border-[1px] rounded-[5px] p-[10px] max-lg:p-[5px] gap-x-[10px] max-lg:gap-x-[5px]'>
                 <div className='w-[20px] max-lg:w-[15px] h-[20px] max-lg:h-[15px] bg-primary rounded-full'/>
-                <p id='notSelect' className='text-[18px] max-lg:text-[16px] max-md:text-[13px] max-sm:text-[16px] text-[#ABB2BF]'>Buscando uma vaga de estágio</p>
+                <ChangeText />
             </div>
         </div>
     </section>
