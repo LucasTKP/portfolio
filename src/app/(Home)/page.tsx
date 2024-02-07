@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import NavBar from '../components/NavBar';
 import SocialMedia from '../components/SocialMedia';
 import MotivationalPhrase from '../components/MotivationalPhrase';
+import Projects from '../components/Projects';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <NavBar />
       <Hero />
       <MotivationalPhrase />
+      <Projects />
     </main>
   );
 }

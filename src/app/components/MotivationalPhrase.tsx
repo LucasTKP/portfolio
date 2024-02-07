@@ -13,7 +13,7 @@ function MotivationalPhrase() {
                 </div>
 
                 <div className='mt-[-2px] max-sm:mt-[-1px] relative border-[2px] max-sm:border-[1px] border-[#ABB2BF] rounded-[6px] p-[15px] max-lg:p-[8px] self-end'>
-                    <p className='text-[22px] max-xl:text-[18px] max-lg:14px max-lsm:text-[12px]'>- Marco Aurélio</p>
+                    <p className='text-[22px] max-xl:text-[18px] max-lg:text-[14px] max-lsm:text-[12px]'>- Marco Aurélio</p>
                 </div>
             </div>
 

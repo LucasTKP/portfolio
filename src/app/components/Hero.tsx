@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import photo1 from '@/assets/images/photo1.png'
-import ChangeText from './changeText'
+import ChangeText from './ChangeText'
 
 
 function Hero() {

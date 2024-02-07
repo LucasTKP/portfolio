@@ -10,7 +10,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'primary': '#10B981'
+        'primary': '#10B981',
+        'secondary': '#ABB2BF'
       },
       screens: {
         'lsm': '475px',
