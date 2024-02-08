@@ -26,7 +26,7 @@ function Project({ srcMedia, technology, title, urlDeploy, urlGithub }: Props) {
 
 
 
-            <div className='text-[20px] max-xl:text-[18px] max-lg:text-[16px] mt-[1px] outline outline-[1px] outline-offset-0 rounded-[4px] p-[5px] text-secondary'>
+            <div className='text-[20px] max-xl:text-[18px] max-lg:text-[16px] mt-[2px] outline outline-[1px] outline-offset-0 p-[5px] text-secondary'>
                 {technology}
             </div>
 
