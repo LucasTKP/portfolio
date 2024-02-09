@@ -5,6 +5,7 @@
 
 html {
   scroll-behavior: smooth;
+  max-width: screen;
 }
 
 #notSelect {
@@ -44,10 +45,3 @@ html {
   background: #0B895F;
 }
 
-#grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto; /* Definindo 2 linhas automáticas */
-  align-items: start;
-  gap: 10px;
-}
