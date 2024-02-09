@@ -1,5 +1,4 @@
-'use client'
-import React, { useState } from 'react'
+import React from 'react'
 import Image from 'next/image';
 import iconGithub from "@/assets/icons/github.svg"
 
@@ -13,12 +12,9 @@ interface Props {
 }
 
 function Project({ srcMedia, technology, title, urlDeploy, urlGithub }: Props) {
-    const [showControls, setShowControls] = useState(false);
     return (
-        <div className='border-secondary border-[1px] rounded-[4px] w-[32%] max-md:w-[48%] max-sm:w-full'
-            onMouseEnter={() => setShowControls(true)}
-            onMouseLeave={() => setShowControls(false)}>
-            <video controls={showControls} className='relative'>
+        <div className='border-secondary border-[1px] rounded-[4px] w-[32%] max-md:w-[48%] max-sm:w-full'>
+            <video className='relative'>
 
                 <source src={srcMedia} type="video/mp4" />
                 Seu navegador não suporta a tag de vídeo.

@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import photo1 from '@/assets/images/photo1.png'
-import ChangeText from './changeText'
+import ChangeText from './TextChange'
 
 
 function Hero() {
