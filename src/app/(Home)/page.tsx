@@ -6,18 +6,22 @@ import MotivationalPhrase from '../components/MotivationalPhrase';
 import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 import Aboutme from '../components/About-me';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
-    <main id='house' className='px-[10%] max-xl:px-[7%] max-lg:px-[5%] text-white pb-[50%]'>
-      <SocialMedia />
-      <Header />
-      <NavBar />
-      <Hero />
-      <MotivationalPhrase />
-      <Projects />
-      <Skills />
-      <Aboutme />
+    <main id='house' className=' text-white'>
+      <div className='px-[10%] max-xl:px-[7%] max-lg:px-[5%]'>
+        <SocialMedia />
+        <Header />
+        <NavBar />
+        <Hero />
+        <MotivationalPhrase />
+        <Projects />
+        <Skills />
+        <Aboutme />
+      </div>
+      <Footer />
     </main>
   );
 }
