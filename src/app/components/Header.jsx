@@ -1,10 +1,28 @@
-import React from 'react'
+'use client'
+import React, { useRef } from 'react'
 import Image from 'next/image'
 import logo from '@/assets/icons/logo.png'
 
 function Header() {
+  const ref = useRef(null)
+
+  const handleScroll = () => {
+    if (scrollY > 75) {
+      ref.current.classList.add("backdrop-blur-md")
+      ref.current.classList.add("bg-background/50")
+    } else if (scrollY < 75) {
+      ref.current.classList.remove("backdrop-blur-md")
+      ref.current.classList.remove("bg-background/50")
+    }
+  };
+
+  // Adiciona um event listener para o evento de scroll quando o componente é montado
+  React.useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <header className='pt-[30px] max-sm:pt-[20px] flex justify-between text-[#ABB2BF] text-[20px] max-lg:text-[18px] max-md:text-[17px]'>
+    <header ref={ref} className='sm:fixed px-[10%] max-xl:px-[7%] max-lg:px-[5%] left-0 w-screen top-0 py-[20px] flex justify-between text-[#ABB2BF] text-[20px] max-lg:text-[18px] max-md:text-[17px] z-50'>
       <div className='group flex items-center gap-x-[10px]'>
         <Image src={logo} alt='logo' className='duration-200 group-hover:rotate-180' />
         <p id='notSelect' className='text-white font-bold duration-200 group-hover:scale-[1.05] cursor-pointer'>Lucas</p>

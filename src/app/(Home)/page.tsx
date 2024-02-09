@@ -5,6 +5,7 @@ import SocialMedia from '../components/SocialMedia';
 import MotivationalPhrase from '../components/MotivationalPhrase';
 import Projects from '../components/Projects';
 import Skills from '../components/Skills';
+import Aboutme from '../components/About-me';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <MotivationalPhrase />
       <Projects />
       <Skills />
+      <Aboutme />
     </main>
   );
 }

@@ -11,7 +11,8 @@ const config: Config = {
     extend: {
       colors: {
         'primary': '#10B981',
-        'secondary': '#ABB2BF'
+        'secondary': '#ABB2BF',
+        'background': '#282c33'
       },
       screens: {
         'lsm': '475px',
