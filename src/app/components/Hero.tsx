@@ -9,7 +9,7 @@ function Hero() {
     const [a , seta] = useState('')
 
   return (
-    <section className='flex max-sm:flex-wrap mt-[60px] max-sm:mt-[20px] gap-x-[100px] max-2xl:gap-x-[50px] max-xl:gap-x-[20px] max-lg:gap-x-[20px] max-md:gap-[10px]'>
+    <section className='flex max-sm:flex-wrap mt-[100px] max-sm:mt-[20px] gap-x-[100px] max-2xl:gap-x-[50px] max-xl:gap-x-[20px] max-lg:gap-x-[20px] max-md:gap-[10px]'>
         <div className='mt-[50px] max-2xl:mt-[0px] flex flex-col items-start'>
             <p className='text-[20px] max-xl:text-[18px] max-lg:text-[16px] font-bold'>
                 Olá, meu nome é

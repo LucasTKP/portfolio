@@ -6,7 +6,7 @@ function Projects() {
 
 
     return (
-        <section className='mt-[75px]'>
+        <section id='projects' className='mt-[75px]'>
             <div className='flex items-center gap-x-[20px]'>
                 <h2 className='text-[36px] max-2xl:text-[34px] max-xl:text-[30px] max-lg:text-[23px] max-md:text-[19px] max-sm:text-[24px] max-lsm:text-[22px] font-medium'>
                     <span className='text-primary'>#</span>
