@@ -4,15 +4,15 @@ import Image from 'next/image'
 import logo from '@/assets/icons/logo.png'
 
 function Header() {
-  const ref = useRef(null)
+  const ref = useRef<HTMLDivElement | null>(null)
 
   const handleScroll = () => {
     if (scrollY > 75) {
-      ref.current.classList.add("backdrop-blur-md")
-      ref.current.classList.add("bg-background/50")
+      ref.current?.classList.add("backdrop-blur-md")
+      ref.current?.classList.add("bg-background/50")
     } else if (scrollY < 75) {
-      ref.current.classList.remove("backdrop-blur-md")
-      ref.current.classList.remove("bg-background/50")
+      ref.current?.classList.remove("backdrop-blur-md")
+      ref.current?.classList.remove("bg-background/50")
     }
   };
 
