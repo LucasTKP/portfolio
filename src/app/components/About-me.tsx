@@ -26,7 +26,7 @@ function Aboutme() {
                     </div>
                 </div>
 
-                <Image src={photo2} alt='imagem 2' className='max-lg:w-[300px] max-md:w-[240px] max-sm:mx-auto'/>
+                <Image src={photo2} alt='imagem 2' className='min-w-[300px] max-md:min-w-[240px] max-sm:w-[200px] max-sm:mx-auto'/>
             </div>
 
         </section>
