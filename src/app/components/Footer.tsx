@@ -7,7 +7,7 @@ import linkedin from '@/assets/icons/linkedin.svg'
 
 function Footer() {
     return (
-        <footer className='pt-[40px] pb-[20px] max-sm:pb-[100px] px-[15%] max-lg:px-[11%] max-md:px-[8%] max-sm:px-[6%] border-t-[2px] border-t-secondary mt-[50px]'>
+        <footer className='pt-[40px] pb-[20px] max-sm:pb-[100px] px-[15%] max-lg:px-[11%] max-md:px-[8%] max-sm:px-[6%] border-t-[2px] border-t-secondary mt-[100px]'>
             <div className='flex max-lsm:flex-wrap max-lsm:justify-center justify-between items-start gap-x-[50px]'>
                 <div>
                     <div className='flex items-center gap-x-[10px]'>
