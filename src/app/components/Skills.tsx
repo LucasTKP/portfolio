@@ -4,7 +4,7 @@ import ImageSkills from '@/assets/images/skills.png'
 import Skill from './Skill'
 function Skills() {
     return (
-        <section id='about' className='mt-[75px]'>
+        <section id='about' className='pt-[75px]'>
             <div className='flex items-center gap-x-[20px]'>
                 <h2 className='text-[36px] max-2xl:text-[34px] max-xl:text-[30px] max-lg:text-[23px] max-md:text-[19px] max-sm:text-[24px] max-lsm:text-[22px] font-medium'>
                     <span className='text-primary'>#</span>
