@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 
 function ChangeText() {
-    const [state, setState] = useState(true)
+    var  [state, setState] = useState(true)
 
     return (
     <>

@@ -15,7 +15,7 @@ interface Props {
 function Project({srcMedia, technology, title, urlDeploy, urlGithub, urlThumbnail }: Props) {
     return (
         <div className='border-secondary border-[1px] rounded-[4px] aspect-video w-[32%] max-md:w-[48%] max-sm:w-full'>
-            <Image src={urlThumbnail} alt='project' quality={100} width={1600} height={900} className='w-full h-auto' />
+            <Image src={urlThumbnail} alt='project' quality={100} width={500} height={281.25}/>
 
             <div className='text-[20px] max-xl:text-[18px] max-lg:text-[16px] mt-[2px] outline outline-[1px] outline-offset-0 p-[5px] text-secondary'>
                 {technology}

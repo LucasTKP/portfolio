@@ -22,7 +22,7 @@ function NavBar() {
             <Image src={iconInfo} alt='informação' width={30} className='duration-200 hover:brightness-75'/>
           </a>
 
-          <a>
+          <a href='#contact'>
             <Image src={iconEmail} alt='email' width={30} className='duration-200 hover:brightness-75'/>
           </a>
         </div>
