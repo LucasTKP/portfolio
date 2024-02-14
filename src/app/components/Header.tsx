@@ -23,9 +23,9 @@ function Header() {
 
   return (
     <header ref={ref} className='sm:fixed px-[10%] max-xl:px-[7%] max-lg:px-[5%] left-0 w-full top-0 py-[20px] flex justify-between text-[#ABB2BF] text-[20px] max-lg:text-[18px] max-md:text-[17px] z-50'>
-      <div className='group flex items-center gap-x-[10px]'>
+      <div  id='notSelect'  className='group flex items-center gap-x-[10px]'>
         <Image src={logo} alt='logo' className='duration-200 group-hover:rotate-180' />
-        <p id='notSelect' className='text-white font-bold duration-200 group-hover:scale-[1.05] cursor-pointer'>Lucas</p>
+        <p className='text-white font-bold duration-200 group-hover:scale-[1.05]'>Lucas</p>
       </div>
 
       <div className='flex gap-x-[32px] max-lg:gap-x-[26px] max-sm:hidden'>
