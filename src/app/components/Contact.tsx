@@ -21,12 +21,12 @@ function Contact() {
                 <div className='border-[2px] border-secondary rounded-[4px] p-[15px] min-w-fit max-sm:mt-[20px]'>
                     <p className='whitespace-nowrap text-[18px] font-medium text-center'>Entre em contato</p>
 
-                    <a className='flex items-center gap-x-[5px] mt-[10px] hover:brightness-75 cursor-pointer'>
+                    <a href='https://wa.me/5516991614062' target='__blank' className='flex items-center gap-x-[5px] mt-[10px] hover:brightness-75 cursor-pointer'>
                         <Image src={IconWhatsApp} width={25} alt='whatsapp' />
                         <p>(16) 991614062</p>
                     </a>
 
-                    <a className='flex items-center gap-x-[5px] mt-[15px] hover:brightness-75 cursor-pointer'>
+                    <a href='mailto:lucasgeansantos@gmail.com?subject=&body=' target='__blank' className='flex items-center gap-x-[5px] mt-[15px] hover:brightness-75 cursor-pointer'>
                         <Image src={IconEmail} width={25} alt='Email' className='brightness-200'/>
                         <p>lucasgeansantos@gmail.com</p>
                     </a>
