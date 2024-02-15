@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
-import photo1 from '@/assets/images/photo1.png'
+import photo1 from '@/assets/images/photo1.webp'
 import ChangeText from './TextChange'
 
 
 function Hero() {
   return (
-    <section className='flex max-sm:flex-wrap pt-[100px] max-sm:pt-[20px] gap-x-[100px] max-2xl:gap-x-[50px] max-xl:gap-x-[20px] max-lg:gap-x-[20px] max-md:gap-[10px]'>
+    <section className='flex max-sm:flex-wrap pt-[100px] max-sm:pt-[20px] gap-x-[100px] max-xl:gap-x-[20px] max-lg:gap-x-[20px] max-md:gap-[10px]'>
         <div className='mt-[50px] max-2xl:mt-[0px] flex flex-col items-start'>
             <p className='text-[20px] max-xl:text-[18px] max-lg:text-[16px] font-bold'>
                 Olá, meu nome é
@@ -22,8 +22,8 @@ function Hero() {
                Contato
             </button>
         </div>
-        <div className='flex flex-col items-center min-w-[45%] max-sm:w-full'>
-            <Image src={photo1} alt='Lucas' priority quality={100} width={500} className='max-sm:w-[300px]'/>
+        <div className='flex flex-col items-center max-sm:w-full'>
+            <Image src={photo1} alt='Lucas' priority quality={100} width={500} className='max-lg:w-[400px] max-sm:w-[250px]'/>
             <div className='flex items-center border-[#ABB2BF] border-[1px] rounded-[5px] p-[10px] max-lg:p-[5px] gap-x-[10px] max-lg:gap-x-[5px]'>
                 <div className='w-[20px] max-lg:w-[15px] h-[20px] max-lg:h-[15px] bg-primary rounded-full'/>
                 <ChangeText />
