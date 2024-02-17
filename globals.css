@@ -8,7 +8,7 @@ html {
   max-width: screen;
 }
 
-#notSelect {
+#notSelect, #notSelect2{
   -webkit-touch-callout: none;
   /* iPhone OS, Safari */
   -webkit-user-select: none;
