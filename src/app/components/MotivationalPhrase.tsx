@@ -6,7 +6,7 @@ import { RevealWrapper } from 'next-reveal'
 
 function MotivationalPhrase() {
     return (
-        <RevealWrapper rotate={{ x: 0, y: 40, z: 0 }} origin='left' delay={150} duration={1000} distance='100%' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
+        <RevealWrapper rotate={{ x: 0, y: 40, z: 0 }} origin='left' delay={0} duration={500} distance='100%' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
             <section className='mt-[100px] flex flex-col items-center'>
                 <div className='flex flex-col'>
                     <div className='relative border-[2px] max-sm:border-[1px] border-[#ABB2BF] rounded-[6px] p-[25px] max-lg:p-[15px]'>
