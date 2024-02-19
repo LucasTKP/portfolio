@@ -7,7 +7,7 @@ import { RevealWrapper } from 'next-reveal'
 
 function Hero() {
     return (
-        <RevealWrapper rotate={{ x: 0, y: 40, z: 0 }} origin='left' delay={150} duration={1000} distance='100%' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
+        <RevealWrapper rotate={{ x: 0, y: 40, z: 0 }} origin='left' delay={0} duration={500} distance='100%' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
             <section id='elemento' className='flex max-sm:flex-wrap pt-[100px] max-sm:pt-[20px] gap-x-[100px] max-xl:gap-x-[20px] max-lg:gap-x-[20px] max-md:gap-[10px]'>
                 <div className='mt-[50px] max-2xl:mt-[0px] flex flex-col items-start'>
                     <p className='text-[20px] max-xl:text-[18px] max-lg:text-[16px] font-bold'>
