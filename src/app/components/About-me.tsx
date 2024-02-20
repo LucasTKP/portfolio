@@ -19,10 +19,6 @@ function Aboutme() {
                         </div>
                         <div className='text-[20px] max-xl:text-[18px] max-lg:text-[17px] max-md:text-[14px] max-sm:text-[16px] max-lsm:text-[14px] text-secondary mt-[20px]'>
                             <p>
-                                Olá, meu nome é Lucas!
-                            </p>
-                            < br />
-                            <p>
                                 Sou um desenvolvedor front-end, moro em Franca São Paulo. Tive meu primeiro contato com algumas linhas de código em janeiro de 2020 quando comecei a cursar o ensino médio integrado ao técnico em Desenvolvimento de Sistemas na Etec. Desde então não parei de buscar informação e sempre me desafiar a fazer projetos.
                             </p>
                             <p>Atualmente estou cursando Desenvolvimento de Software Multiplataforma na Fatec de Franca.</p>
