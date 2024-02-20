@@ -12,7 +12,7 @@ function Hero() {
                     Olá, meu nome é
                 </p>
                 <p className='text-[36px] max-2xl:text-[34px] max-xl:text-[30px] max-lg:text-[23px] max-md:text-[19px] max-sm:text-[24px] max-lsm:text-[22px] font-semibold'>
-                    <span className='text-primary'>Lucas</span> e sou um <br /> <span className='text-primary'>Desenvolvedor</span> de <span className='text-primary'>software</span>
+                    <span className='text-primary'>Lucas,</span> sou um <br /> <span className='text-primary'>Desenvolvedor</span> de <span className='text-primary'>software</span>
                 </p>
 
                 <p className='text-[20px] max-xl:text-[18px] max-lg:text-[15px] max-md:text-[13px] max-sm:text-[16px] max-lsm:text-[14px] max-sm:pr-[10px] text-[#abb2bf] mt-[40px] max-lg:mt-[20px] max-md:mt-[10px]'>Possuo experiência tanto em desenvolvimento  front-end quanto back-end, sendo capaz de criar Websites responsivos utilizando as tecnologias React/Next.</p>
