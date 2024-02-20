@@ -23,7 +23,7 @@ function Footer() {
                         <p className='mt-[15px] max-md:mt-[10px] max-lsm:mt-[5px] max-sm:text-[14px]'>Desenvolvedor Front-End Web</p>
                     </div>
                     <div>
-                        <p className='text-[20px] font-medium text-center max-lsm:mt-[20px]'>Media</p>
+                        <p className='text-[20px] font-medium text-center max-lsm:mt-[20px]'>Redes Sociais</p>
                         <div className='flex items-center gap-x-[10px]'>
                             <a href='https://www.instagram.com/lucas_tkp/' target='__blank'><Image src={instagram} alt='instagram' className='w-[30px] max-md:w-[26px] hover:brightness-75 cursor-pointer duration-200' /></a>
                             <a href='https://github.com/LucasTKP' target='__blank'><Image src={github} alt='github' className='w-[24px] max-md:w-[22px] hover:brightness-75 cursor-pointer duration-200' /></a>
