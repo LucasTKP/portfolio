@@ -16,7 +16,7 @@ function Footer() {
                         <div className='flex items-center gap-x-[10px]'>
                             <div className='group flex items-center gap-x-[10px]'>
                                 <Image src={logo} alt='logo' className='duration-200 group-hover:rotate-180' />
-                                <p id='notSelect' className='text-white font-bold duration-200 group-hover:scale-[1.05] cursor-pointer'>Lucas</p>
+                                <p id='notSelect' className='text-white font-bold duration-200 group-hover:scale-[1.05]'>Lucas</p>
                             </div>
                             <p className='text-secondary max-sm:text-[14px]'>lucasgeansantos@gmail.com</p>
                         </div>
