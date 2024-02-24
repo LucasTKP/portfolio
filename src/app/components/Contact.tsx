@@ -1,13 +1,29 @@
 'use client'
-import React from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
 import IconWhatsApp from '@/assets/icons/whatsapp.svg'
 import IconEmail from '@/assets/icons/email.svg'
 import { RevealWrapper } from 'next-reveal'
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
+    function handleEmail() {
+        const email = 'lucasgeansantos@gmail.com';
+        navigator.clipboard.writeText(email)
+            .then(() => {
+                toast.success("Email copiado com sucesso!");
+            })
+            .catch((error) => {
+                console.error('Erro ao copiar o endereço de e-mail:', error);
+            });
+    }
+
+
+
     return (
         <section id='contact' className='pt-[75px]'>
+            <ToastContainer autoClose={2000} />
             <RevealWrapper rotate={{ x: 0, y: 40, z: 0 }} origin='left' delay={150} duration={500} distance='100%' reset={false} viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}>
                 <div className='flex items-center gap-x-[20px]'>
                     <h2 className='whitespace-nowrap text-[36px] max-2xl:text-[34px] max-xl:text-[30px] max-lg:text-[23px] max-md:text-[19px] max-sm:text-[24px] max-lsm:text-[22px] font-medium'>
@@ -29,10 +45,10 @@ function Contact() {
                             <p>(16) 991614062</p>
                         </a>
 
-                        <a href='mailto:lucasgeansantos@gmail.com?subject=&body=' target='__blank' className='flex items-center gap-x-[5px] mt-[15px] hover:brightness-75 cursor-pointer'>
+                        <button onClick={() => handleEmail()} className='flex items-center gap-x-[5px] mt-[15px] hover:brightness-75 cursor-pointer'>
                             <Image src={IconEmail} width={25} alt='Email' className='brightness-200' />
                             <p>lucasgeansantos@gmail.com</p>
-                        </a>
+                        </button>
 
                     </div>
                 </div>
